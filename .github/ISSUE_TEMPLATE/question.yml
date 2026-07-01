@@ -1,0 +1,19 @@
+﻿name: Question
+description: Ask a usage or compatibility question
+title: "[Question]: "
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: input
+    id: visual-studio
+    attributes:
+      label: Visual Studio version
+  - type: input
+    id: opencv
+    attributes:
+      label: OpenCV version

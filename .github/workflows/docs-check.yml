@@ -1,0 +1,29 @@
+﻿name: Docs check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  docs-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required public files
+        run: |
+          test -f README.md
+          test -f README.zh-CN.md
+          test -f LICENSE
+          test -f test-cpp/CMakeLists.txt
+          test -f test-cpp/main.cpp
+          test ! -d demo
+          test ! -d ImageWatch
+          test ! -d ImageWatchNativeHelpers
+          test ! -d ImageWatch.Packaging
+          test ! -d vtiview
+          test ! -d VisionTools
+      - name: Check private wording
+        run: |
+          ! grep -R "VSCode 插件" README.md README.zh-CN.md docs test-cpp
+          ! grep -R "ImageWatchPro-for-VS2022-ClaudeCode" README.md README.zh-CN.md docs test-cpp
+

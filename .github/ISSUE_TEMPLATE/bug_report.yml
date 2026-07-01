@@ -1,0 +1,40 @@
+﻿name: Bug report
+description: Report a reproducible ImageWatchPro problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: Include a minimal code snippet or point to a test-cpp scenario when possible.
+    validations:
+      required: true
+  - type: input
+    id: visual-studio
+    attributes:
+      label: Visual Studio version
+      placeholder: "Visual Studio 2022 17.x"
+    validations:
+      required: true
+  - type: input
+    id: opencv
+    attributes:
+      label: OpenCV version
+      placeholder: "OpenCV 4.x"
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 23H2"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
