@@ -4,13 +4,15 @@
 
 ImageWatchPro is a Visual Studio 2022/2026 debugger visualizer for native C++ and OpenCV. It upgrades the classic Image Watch workflow with mask overlays, contour and geometry inspection, numeric plots, histograms, and full-data export directly inside the Visual Studio debugger.
 
-<p align="center">
-  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" />
-  <span>&nbsp;&nbsp;➡&nbsp;&nbsp;</span>
-  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="middle"><img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" /></td>
+    <td align="center" valign="middle"><h1>➡</h1></td>
+    <td align="center" valign="middle"><img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" /></td>
+  </tr>
+</table>
 
-<p align="center"><strong>让 OpenCV 调试，看得见、看得清、看得爽。</strong></p>
+<p align="center"><strong>Make OpenCV debugging visible, clear, and effortless.</strong></p>
 
 ## Why ImageWatchPro
 
@@ -143,6 +145,10 @@ Set breakpoints near the marked return statements in `main.cpp`, then inspect th
 - OpenCV learners who want to see each intermediate result instead of guessing
 - C++ engineers who need fast visual feedback without adding GUI/debug dumping code
 
+## Support
+
+Enjoying the extension? [Buy me a coffee](images/wechat-payment-QR-code.jpg) — every cup helps keep it free. Bug reports, suggestions, and pull requests are welcome on [Github](https://github.com/namemzy/ImageWatchPro-for-VisualStudio).
+
 ## License
 
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
@@ -157,4 +163,6 @@ Please use GitHub Issues for bugs, feature requests, compatibility reports, and 
   <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="220" />
 </p>
 
-关注公众号「智启微观」，后台私信「ImageWatchPro」获取插件下载链接、更新通知、使用技巧和视觉算法调试经验。
+Follow WeChat Official Account 「智启微观」 and send 「ImageWatchPro」 in the background to get the plugin download link, update notifications, usage tips, and technical articles.
+
+

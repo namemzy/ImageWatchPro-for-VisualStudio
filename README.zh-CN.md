@@ -2,11 +2,13 @@
 
 ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调试可视化扩展。它在经典 Image Watch 的基础上，补齐了 Mask 叠加、轮廓/几何变量、数值绘图、直方图和合成导出等现代视觉调试能力。
 
-<p align="center">
-  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" />
-  <span>&nbsp;&nbsp;➡&nbsp;&nbsp;</span>
-  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="middle"><img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" /></td>
+    <td align="center" valign="middle"><h1>➡</h1></td>
+    <td align="center" valign="middle"><img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" /></td>
+  </tr>
+</table>
 
 <p align="center"><strong>让 OpenCV 调试，看得见、看得清、看得爽。</strong></p>
 
@@ -143,6 +145,10 @@ cmake --build build --config Debug
 | 工业视觉开发者 | AOI 缺陷检测、尺寸测量、定位引导 | 多 Mask 叠加 + 多轮廓标注 + 导出报告 |
 | C++ 嵌入式视觉 | 边缘设备算法移植与调试 | 无需 GUI 框架，纯 VS 调试器内完成 |
 
+## 支持项目
+
+喜欢这个扩展？[请我喝杯咖啡](images/wechat-payment-QR-code.jpg)——每一杯都能帮助它持续免费。欢迎在 [GitHub](https://github.com/namemzy/ImageWatchPro-for-VisualStudio) 提交 Bug、建议和 Pull Request。
+
 ## 开源协议
 
 本仓库使用 MIT License。详情见 [LICENSE](LICENSE)。
@@ -157,4 +163,6 @@ cmake --build build --config Debug
   <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="220" />
 </p>
 
-关注公众号「智启微观」，后台私信「ImageWatchPro」，获取插件下载链接、更新通知、使用技巧和视觉算法调试经验。
+关注公众号「智启微观」，后台私信「ImageWatchPro」获取插件下载链接、更新通知、使用技巧和技术干货。
+
+
