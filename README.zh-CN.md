@@ -3,10 +3,12 @@
 ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调试可视化扩展。它在经典 Image Watch 的基础上，补齐了 Mask 叠加、轮廓/几何变量、数值绘图、直方图和合成导出等现代视觉调试能力。
 
 <p align="center">
-  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="72" />
+  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" />
   <span>&nbsp;&nbsp;➡&nbsp;&nbsp;</span>
-  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="72" />
+  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" />
 </p>
+
+<p align="center"><strong>让 OpenCV 调试，看得见、看得清、看得爽。</strong></p>
 
 ## 为什么需要 ImageWatchPro
 
@@ -148,3 +150,11 @@ cmake --build build --config Debug
 ## 反馈
 
 请通过 GitHub Issues 提交 bug、功能建议、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本和最小复现代码。
+
+## 关注公众号
+
+<p align="center">
+  <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="220" />
+</p>
+
+关注公众号「智启微观」，后台私信「ImageWatchPro」，获取插件下载链接、更新通知、使用技巧和视觉算法调试经验。
