@@ -147,6 +147,10 @@ Set breakpoints near the marked return statements in `main.cpp`, then inspect th
 
 Enjoying the extension? [Buy me a coffee](images/wechat-payment-QR-code.jpg) — every cup helps keep it free. Bug reports, suggestions, pull requests, compatibility reports, and documentation questions are welcome on [Github](https://github.com/namemzy/ImageWatchPro-for-VisualStudio). Please include your Visual Studio version, Windows version, OpenCV version, and a minimal repro when possible.
 
+## Acknowledgements
+
+ImageWatchPro is built on ideas and foundations from Microsoft's official [microsoft/image-watch](https://github.com/microsoft/image-watch) project. Thanks to Microsoft and the Image Watch contributors for creating the original Visual Studio image debugging workflow.
+
 ## License
 
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
@@ -155,10 +159,8 @@ This repository is licensed under the MIT License. See [LICENSE](LICENSE) for de
 ## Follow
 
 <p align="center">
-  <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="220" />
+  <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="400" />
 </p>
 
 Follow WeChat Official Account 「智启微观」 and send 「ImageWatchPro」 in the background to get the plugin download link, update notifications, usage tips, and technical articles.
-
-
 

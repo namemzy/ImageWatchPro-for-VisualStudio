@@ -147,6 +147,10 @@ cmake --build build --config Debug
 
 喜欢这个扩展？[请我喝杯咖啡](images/wechat-payment-QR-code.jpg)——每一杯都能帮助它持续免费。欢迎在 [GitHub](https://github.com/namemzy/ImageWatchPro-for-VisualStudio) 提交 Bug、建议、Pull Request、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本和最小复现代码。
 
+## 致谢
+
+ImageWatchPro 基于微软官方 [microsoft/image-watch](https://github.com/microsoft/image-watch) 项目的思路和基础继续增强。感谢 Microsoft 和 Image Watch 贡献者创建了最初的 Visual Studio 图像调试工作流。
+
 ## 开源协议
 
 本仓库使用 MIT License。详情见 [LICENSE](LICENSE)。
@@ -155,10 +159,8 @@ cmake --build build --config Debug
 ## 关注公众号
 
 <p align="center">
-  <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="220" />
+  <img src="images/公众号二维码.png" alt="智启微观公众号二维码" width="400" />
 </p>
 
 关注公众号「智启微观」，后台私信「ImageWatchPro」获取插件下载链接、更新通知、使用技巧和技术干货。
-
-
 
