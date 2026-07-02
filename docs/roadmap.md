@@ -1,4 +1,4 @@
-﻿# Roadmap
+﻿﻿# Roadmap
 
 ## Preview 阶段
 
@@ -12,4 +12,3 @@
 - 改进 Mask 管理体验。
 - 增加 Plot 轴标题和单位配置。
 - 为大数据轮廓和 Plot 增加更好的后台读取或取消机制。
-- 根据反馈评估 open-core 拆分边界。
