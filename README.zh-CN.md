@@ -12,14 +12,12 @@ ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调
 
 ## 功能展示
 
-| 功能 | 状态 |
-| --- | --- |
-| `cv::Mat` / `cv::Mat_<T>` 图像查看 | VSIX 二进制已支持 |
-| 单通道图像作为 Mask 叠加 | VSIX 二进制已支持 |
-| OpenCV 轮廓、点集、矩形、旋转矩形 | VSIX 二进制已支持 |
-| 数值折线图和散点图 | VSIX 二进制已支持 |
-| 单通道灰度直方图和 B/G/R 通道直方图 | VSIX 二进制已支持 |
-| 合成可见 Mask、轮廓、点集并导出 PNG/BMP/TIFF | VSIX 二进制已支持 |
+- [x] `cv::Mat` / `cv::Mat_<T>` 图像查看
+- [x] 单通道图像作为 Mask 叠加
+- [x] OpenCV 轮廓、点集、矩形、旋转矩形
+- [x] 数值折线图和散点图
+- [x] 单通道灰度直方图和 B/G/R 通道直方图
+- [x] 合成可见 Mask、轮廓、点集并导出 PNG/BMP/TIFF
 
 ## 快速开始
 
@@ -32,8 +30,6 @@ ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调
 
 ## Demo / Smoke Test
 
-`test-cpp/` 同时是公开 demo 和手动验证项目，不再额外提供单独的 `demo/` 目录。
-
 ```powershell
 cd test-cpp
 cmake -S . -B build -G "Visual Studio 17 2022" -A x64
@@ -42,21 +38,9 @@ cmake --build build --config Debug
 
 在 `main.cpp` 中带有“设置断点”提示的位置打断点，然后在 ImageWatchPro 窗口中查看变量。
 
-## 截图
+## 开源协议
 
-真实 Visual Studio 界面截图后续补充。当前先放置产品图标和 `test-cpp/` 使用的 OpenCV 测试图片，作为素材位。
-
-| 素材 | 预览 |
-| --- | --- |
-| 产品图标 | ![ImageWatchPro](docs/images/ImageWatchPro.png) |
-| Demo 图片 | ![tf-card](docs/images/demo-tf-card.png) |
-| Demo 图片 | ![circles](docs/images/demo-circles.png) |
-
-## 开源边界
-
-本仓库公开文档、Issue 模板和 `test-cpp/` demo/smoke-test 项目，并使用 MIT 许可证。
-
-当前仓库不包含核心插件源码。核心 Visual Studio 扩展以免费 VSIX 二进制形式通过 GitHub Releases 发布。
+本仓库使用 MIT License。详情见 [LICENSE](LICENSE)。
 
 ## 反馈
 

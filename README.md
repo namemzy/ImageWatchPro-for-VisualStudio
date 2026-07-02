@@ -14,14 +14,12 @@ Current preview binary: `ImageWatchPro.Packaging.vsix`.
 
 ## What You Can Inspect
 
-| Capability | Status |
-| --- | --- |
-| `cv::Mat` / `cv::Mat_<T>` image viewer | Available in the VSIX binary |
-| Single-channel mask overlay | Available in the VSIX binary |
-| OpenCV contours, point sets, rectangles, rotated rectangles | Available in the VSIX binary |
-| Numeric line/scatter plots | Available in the VSIX binary |
-| Grayscale and B/G/R channel histograms | Available in the VSIX binary |
-| PNG/BMP/TIFF export with visible overlays | Available in the VSIX binary |
+- [x] `cv::Mat` / `cv::Mat_<T>` image viewer
+- [x] Single-channel mask overlay
+- [x] OpenCV contours, point sets, rectangles, rotated rectangles
+- [x] Numeric line/scatter plots
+- [x] Grayscale and B/G/R channel histograms
+- [x] PNG/BMP/TIFF export with visible overlays
 
 ## Quick Start
 
@@ -34,8 +32,6 @@ Current preview binary: `ImageWatchPro.Packaging.vsix`.
 
 ## Demo / Smoke Test
 
-The `test-cpp/` folder is both the public demo and the smoke-test project.
-
 ```powershell
 cd test-cpp
 cmake -S . -B build -G "Visual Studio 17 2022" -A x64
@@ -44,21 +40,9 @@ cmake --build build --config Debug
 
 Set breakpoints near the marked return statements in `main.cpp`, then inspect the variables in ImageWatchPro.
 
-## Screenshots
+## License
 
-Real Visual Studio screenshots will be added here. For now, this repository includes the icon and the OpenCV demo images used by `test-cpp/`.
-
-| Asset | Preview |
-| --- | --- |
-| Product icon | ![ImageWatchPro](docs/images/ImageWatchPro.png) |
-| Demo image | ![tf-card](docs/images/demo-tf-card.png) |
-| Demo image | ![circles](docs/images/demo-circles.png) |
-
-## Open Source Scope
-
-This repository contains public documentation, issue templates, and the `test-cpp/` demo/smoke-test project under the MIT license.
-
-The current repository does not include the core extension source code. The core Visual Studio extension is distributed as a free binary VSIX through GitHub Releases.
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Feedback
 
