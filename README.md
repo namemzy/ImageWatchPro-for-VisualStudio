@@ -4,13 +4,11 @@
 
 ImageWatchPro is a Visual Studio 2022/2026 debugger visualizer for native C++ and OpenCV. It upgrades the classic Image Watch workflow with mask overlays, contour and geometry inspection, numeric plots, histograms, and full-data export directly inside the Visual Studio debugger.
 
-<table align="center">
-  <tr>
-    <td align="center" valign="middle"><img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" /></td>
-    <td align="center" valign="middle"><h1>➡</h1></td>
-    <td align="center" valign="middle"><img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" />
+  <img src="images/logo-arrow.png" alt="to" height="128" />
+  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" />
+</p>
 
 <p align="center"><strong>Make OpenCV debugging visible, clear, and effortless.</strong></p>
 
@@ -147,15 +145,12 @@ Set breakpoints near the marked return statements in `main.cpp`, then inspect th
 
 ## Support
 
-Enjoying the extension? [Buy me a coffee](images/wechat-payment-QR-code.jpg) — every cup helps keep it free. Bug reports, suggestions, and pull requests are welcome on [Github](https://github.com/namemzy/ImageWatchPro-for-VisualStudio).
+Enjoying the extension? [Buy me a coffee](images/wechat-payment-QR-code.jpg) — every cup helps keep it free. Bug reports, suggestions, pull requests, compatibility reports, and documentation questions are welcome on [Github](https://github.com/namemzy/ImageWatchPro-for-VisualStudio). Please include your Visual Studio version, Windows version, OpenCV version, and a minimal repro when possible.
 
 ## License
 
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## Feedback
-
-Please use GitHub Issues for bugs, feature requests, compatibility reports, and documentation questions. Include your Visual Studio version, Windows version, OpenCV version, and a minimal repro when possible.
 
 ## Follow
 
@@ -164,5 +159,6 @@ Please use GitHub Issues for bugs, feature requests, compatibility reports, and 
 </p>
 
 Follow WeChat Official Account 「智启微观」 and send 「ImageWatchPro」 in the background to get the plugin download link, update notifications, usage tips, and technical articles.
+
 
 

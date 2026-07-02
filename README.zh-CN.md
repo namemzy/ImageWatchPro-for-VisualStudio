@@ -2,13 +2,11 @@
 
 ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调试可视化扩展。它在经典 Image Watch 的基础上，补齐了 Mask 叠加、轮廓/几何变量、数值绘图、直方图和合成导出等现代视觉调试能力。
 
-<table align="center">
-  <tr>
-    <td align="center" valign="middle"><img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" /></td>
-    <td align="center" valign="middle"><h1>➡</h1></td>
-    <td align="center" valign="middle"><img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="images/ImageWatch-logo.png" alt="ImageWatch" height="128" />
+  <img src="images/logo-arrow.png" alt="to" height="128" />
+  <img src="images/ImageWatchPro-logo.png" alt="ImageWatchPro" height="128" />
+</p>
 
 <p align="center"><strong>让 OpenCV 调试，看得见、看得清、看得爽。</strong></p>
 
@@ -147,15 +145,12 @@ cmake --build build --config Debug
 
 ## 支持项目
 
-喜欢这个扩展？[请我喝杯咖啡](images/wechat-payment-QR-code.jpg)——每一杯都能帮助它持续免费。欢迎在 [GitHub](https://github.com/namemzy/ImageWatchPro-for-VisualStudio) 提交 Bug、建议和 Pull Request。
+喜欢这个扩展？[请我喝杯咖啡](images/wechat-payment-QR-code.jpg)——每一杯都能帮助它持续免费。欢迎在 [GitHub](https://github.com/namemzy/ImageWatchPro-for-VisualStudio) 提交 Bug、建议、Pull Request、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本和最小复现代码。
 
 ## 开源协议
 
 本仓库使用 MIT License。详情见 [LICENSE](LICENSE)。
 
-## 反馈
-
-请通过 GitHub Issues 提交 bug、功能建议、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本和最小复现代码。
 
 ## 关注公众号
 
@@ -164,5 +159,6 @@ cmake --build build --config Debug
 </p>
 
 关注公众号「智启微观」，后台私信「ImageWatchPro」获取插件下载链接、更新通知、使用技巧和技术干货。
+
 
 
