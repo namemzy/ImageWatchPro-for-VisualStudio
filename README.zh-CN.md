@@ -44,4 +44,5 @@ cmake --build build --config Debug
 
 ## 反馈
 
-请通过 GitHub Issues 提交 bug、功能建议、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本、最小复现代码和截图。
+请通过 GitHub Issues 提交 bug、功能建议、兼容性报告和文档问题。建议附带 Visual Studio 版本、Windows 版本、OpenCV 版本和最小复现代码。
+
