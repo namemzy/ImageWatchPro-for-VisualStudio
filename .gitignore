@@ -30,3 +30,5 @@ compile_commands.json
 .DS_Store
 Thumbs.db
 .vscode/.browse.VC.db
+docs/publishing-to-marketplace.md
+.workbuddy/
