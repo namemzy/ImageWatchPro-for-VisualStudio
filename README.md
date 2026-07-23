@@ -1,4 +1,4 @@
-﻿# ImageWatchPro for Visual Studio
+﻿﻿# ImageWatchPro for Visual Studio
 
 [中文说明](README.zh-CN.md)
 
@@ -74,7 +74,11 @@ ImageWatchPro automatically captures OpenCV contour and geometry variables from 
 
 Integer contours align to pixel centers, while floating-point contours keep subpixel coordinates.
 
-![Multiple contours](images/4.2-多轮廓显示_compressed.gif)
+![Multiple contours](images/4.2-多轮廓显示.gif)
+
+It also supports multi-contour overlay display and export to local storage.
+
+![Multiple contours](images/4.2-多轮廓导出.gif)
 
 Native OpenCV geometry objects can be visualized directly without converting them into drawing code first.
 

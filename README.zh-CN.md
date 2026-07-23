@@ -1,4 +1,4 @@
-﻿# ImageWatchPro for Visual Studio
+﻿﻿# ImageWatchPro for Visual Studio
 
 ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调试可视化扩展。它在经典 Image Watch 的基础上，补齐了 Mask 叠加、轮廓/几何变量、数值绘图、直方图和合成导出等现代视觉调试能力。
 
@@ -69,7 +69,11 @@ ImageWatchPro 把左侧区域拆成 Locals、Contour、Plot、Watch 四个面板
 
 整数轮廓按像素中心显示，浮点/双精度轮廓保留原始亚像素坐标。多轮廓可自动循环配色，也可以切换为点集显示。
 
-![多轮廓显示](images/4.2-多轮廓显示_compressed.gif)
+![多轮廓显示](images/4.2-多轮廓显示.gif)
+
+还能支持多轮廓叠加显示导出到本地。
+
+![多轮廓显示](images/4.2-多轮廓导出.gif)
 
 OpenCV 原生几何对象无需额外画图代码，也能直接查看。
 
