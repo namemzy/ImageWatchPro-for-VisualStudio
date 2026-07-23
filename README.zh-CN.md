@@ -1,4 +1,4 @@
-﻿﻿# ImageWatchPro for Visual Studio
+﻿# ImageWatchPro for Visual Studio
 
 ImageWatchPro 是一个面向 Visual Studio 2022/2026 的原生 C++ / OpenCV 调试可视化扩展。它在经典 Image Watch 的基础上，补齐了 Mask 叠加、轮廓/几何变量、数值绘图、直方图和合成导出等现代视觉调试能力。
 

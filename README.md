@@ -1,4 +1,4 @@
-﻿﻿# ImageWatchPro for Visual Studio
+﻿# ImageWatchPro for Visual Studio
 
 [中文说明](README.zh-CN.md)
 
