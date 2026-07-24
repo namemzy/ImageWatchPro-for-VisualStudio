@@ -1,6 +1,6 @@
 ﻿# ImageWatchPro for Visual Studio
 
-[中文说明](README.zh-CN.md)
+[中文说明](https://github.com/namemzy/ImageWatchPro-for-VisualStudio/blob/main/README.zh-CN.md)
 
 ImageWatchPro is a Visual Studio 2022/2026 debugger visualizer for native C++ and OpenCV. It upgrades the classic Image Watch workflow with mask overlays, contour and geometry inspection, numeric plots, histograms, and full-data export directly inside the Visual Studio debugger.
 
@@ -157,7 +157,7 @@ ImageWatchPro is built on ideas and foundations from Microsoft's official [micro
 
 ## License
 
-This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This repository is licensed under the MIT License. See [LICENSE](https://github.com/namemzy/ImageWatchPro-for-VisualStudio/blob/main/LICENSE) for details.
 
 
 ## Follow
